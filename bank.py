@@ -20,7 +20,7 @@ class bank():
                 print('Succesful')
         else: print('You canceled the operation')
 
-    def menu() -> None:
+    def menu(self) -> None:
         print('1) View the balance' + '\n' + '2) Transfer money' + '\n' + '3) Top up your account' + '\n' + '4) Exit')
 
 
@@ -46,3 +46,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
